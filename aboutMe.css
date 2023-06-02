@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+body {
+    background-color: rgba(237, 233, 126, 0.641);
+    box-sizing: border-box;
+}
+
+header {
+    margin-right: 100px;
+    margin-left: 100px;
+    height: 100px;
+    position: relative;
+}
+h1 {
+    color: rgb(14, 182, 126);
+    font-family: 'Righteous', cursive;
+    font-weight:lighter;
+    font-size: 30px;
+    display: inline-block;
+}
+
+header .category {
+    font-size: 14px;
+    text-align: right;
+    position: absolute; 
+    right: 10px;
+    display: inline-block;
+    height: 80px;
+    
+}
+
+.category ul {
+    line-height: 50px;
+}
+
+.category ul li {
+    text-decoration: none;
+    margin-right: 20px;
+    list-style-type: none;
+    display: inline-block;
+}
+
+.category ul li a {
+    text-decoration: none;
+    color: white;
+    line-height: 60px;
+    color: rgb(14, 182, 126);
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/img/background_3.webp);
+    height: 600px;
+    margin: zero;
+}
+
+.main .box {
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    background-color: rgba(255, 235, 205, 0.469);
+    position: relative;
+    top: 75px;
+}
+
+.main .circle_1 {
+    
+    width: 290px;
+    height: 290px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    position: absolute;
+    top: 175px;
+    background-color: rgba(0, 255, 255, 0.255);
+}
+
+.main .circle_2 {
+    
+    width: 250px;
+    height: 250px;
+    vertical-align: middle;
+    margin: 20px;
+    border-radius: 50%;
+    background-color: aquamarine;
+}
+
+.main .circle_3 {
+    
+    width: 240px;
+    height: 240px;
+    margin: 4px;
+    border-radius: 50%;
+}
+
+.circle_3 img {
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+}
+
+.box {
+    text-align: center;
+    
+}
+
+.box .name {
+    height: 175px;
+    line-height: 300px;
+    font-family: 'Righteous', cursive;
+    font-size: 40px;
+    color: rgb(14, 182, 126);
+}
+   
+.box .job {
+    color: rgb(14, 182, 126);
+}
+
+.box .icon {
+    display: inline-block;
+    margin: 5px;
+    line-height: 100px;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.intro .info {
+    width: 60px;
+    height: 60px;
+    border: 1px solid rgba(218, 226, 149, 0.445);
+    position: absolute;
+    border-radius: 5px;
+    top: 40px;
+    box-shadow: inset 5px;
+}
+
+.info>i {
+    line-height: 60px;
+    margin-left: 13.5px;
+}
+
+
+.intro #about {
+    position: absolute;
+    font-size: 40px;
+    font-family: 'Righteous', cursive;
+    color: rgb(14, 182, 126);;
+    line-height: 250px;
+}
+
+.intro p {
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-top: 200px;
+    color: darksalmon;
+}
+
+.intro p span {
+    color: #0eb67e;
+}
+/* h1 {
+    font-family: 'Righteous', cursive;
+} */
