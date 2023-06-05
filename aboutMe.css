@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Rubik&display=swap');
 
 body {
     background-color: rgba(237, 233, 126, 0.641);
@@ -45,6 +46,7 @@ header .category {
     color: white;
     line-height: 60px;
     color: rgb(14, 182, 126);
+    font-family:'Rubik', sans-serif;
 }
 
 .main {
@@ -59,7 +61,7 @@ header .category {
 .main .box {
     width: 300px;
     height: 300px;
-    border-radius: 5px;
+    border-radius: 50px;
     background-color: rgba(255, 235, 205, 0.469);
     position: relative;
     top: 75px;
@@ -100,6 +102,12 @@ header .category {
     border-radius: 50%;
 }
 
+.icon a i {
+    animation-play-state: running;
+    animation-iteration-count: 1;
+    
+}
+
 .box {
     text-align: center;
     
@@ -132,16 +140,16 @@ header .category {
 .intro .info {
     width: 60px;
     height: 60px;
-    border: 1px solid rgba(218, 226, 149, 0.445);
+    border: 1px solid rgba(211, 220, 134, 0.556);
     position: absolute;
-    border-radius: 5px;
+    border-radius: 10px;
     top: 40px;
-    box-shadow: inset 5px;
 }
 
-.info>i {
-    line-height: 60px;
-    margin-left: 13.5px;
+.info a i {
+    position: absolute;
+    top: 30px;
+    left: 13.5px;
 }
 
 
@@ -158,10 +166,128 @@ header .category {
     margin-left: 200px;
     margin-top: 200px;
     color: darksalmon;
+    font-family:'Rubik', sans-serif;
 }
 
 .intro p span {
     color: #0eb67e;
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+}
+
+.me {
+    display: flex;
+    position: relative;
+}
+
+.detail {
+    margin-left: 200px;
+    height: 250px;
+    margin-top: 30px;
+    width: 550px;
+}
+
+.detail .label_1 {
+    font-size: 25px;
+    font-family: 'Righteous', cursive;
+    color: #0eb67e;
+}
+
+.personal {
+    margin-top: 30px;
+}
+
+.personal tr>td:nth-child(1) {
+    color: #0eb67e;
+    font-weight: bold;
+    width: 120px
+}
+
+.personal tr>td:nth-child(2) {
+    color: darksalmon;
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;   
+}
+
+#wow div {
+    width: 100px;
+    height: 25px;
+    color: white;
+    background-color: darksalmon;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 25px;
+}
+
+.interest {
+    height: 250px;
+    margin-top: 30px;
+    width: 550px;
+    position: absolute;
+    left: 1000px;
+    right: 200px;
+}
+
+.label_2 {
+    font-size: 25px;
+    font-family: 'Righteous', cursive;
+    color: #b899d6
+}
+
+.hobby {
+    display: grid;
+    margin-top: 25px;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 25px;
+    width: 300px;
+}
+
+.hobby div {
+    border: 1px solid #b899d6;
+    width: 60px;
+    height: 60px;
+    color: #b899d6;
+    border-radius: 7px;
+    text-align: center;
+    position: relative;
+    font-size: 12px;
+    display: flex;
+    justify-content:center;
+    font-family: 'Rubik', sans-serif;
+}
+
+.hobby div i {
+    position: absolute;
+    display: block;
+    top: 20px;
+}
+
+.hobby div span {
+    position: absolute;
+    top: 40px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
+
+.download {
+    color: #0eb67e;
+    width: 150px;
+    height: 30px;
+    border: 2px solid #0eb67e;
+    text-align: center;
+    line-height: 32px;
+    border-radius: 5px;
+}
+
+.download a {
+    text-decoration: none;
+    color: #0eb67e;
+    font-family: 'Rubik', sans-serif;
 }
 /* h1 {
     font-family: 'Righteous', cursive;
