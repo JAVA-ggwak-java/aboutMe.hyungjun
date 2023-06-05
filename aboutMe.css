@@ -51,7 +51,7 @@ header .category {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(/img/background_3.webp);
+    background-image: url(../img/background_3.webp);
     height: 600px;
     margin: zero;
 }
